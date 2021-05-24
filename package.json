@@ -1,0 +1,23 @@
+{
+  "name": "ana-garcia-web-designer",
+  "version": "1.0.0",
+  "description": "Mi sitio web para la materia de diseño web",
+  "main": "index.html",
+  "scripts": {
+    "open-app": "gulp open-app",
+    "start": "npm run open-app",
+    "watch": "npx gulp-watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-open": "^3.0.1"
+  }
+}
